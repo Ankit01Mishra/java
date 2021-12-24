@@ -1,4 +1,4 @@
-FROM docker:stable
+FROM docker:19
 
 # install git, bash, kind, kubectl and clone the kubernetes-client/gen code base
 RUN apk add --no-cache git bash && \
