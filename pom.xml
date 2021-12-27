@@ -60,7 +60,7 @@
     <apache.commons.compress>1.21</apache.commons.compress>
     <apache.commons.io>2.11.0</apache.commons.io>
     <common.codec.version>1.15</common.codec.version>
-    <spring.boot.version>2.6.1</spring.boot.version>
+    <spring.boot.version>2.6.2</spring.boot.version>
     <spring.version>5.3.14</spring.version>
     <prometheus.client.version>0.13.0</prometheus.client.version>
 
@@ -437,8 +437,8 @@
               <includes>
                 <include>src/**/*.java</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
             </format>
             <!-- removes wildcard imports -->
             <format>
@@ -464,7 +464,7 @@
             </format>
           </formats>
           <java>
-            <removeUnusedImports /> <!-- self-explanatory -->
+            <removeUnusedImports/> <!-- self-explanatory -->
             <googleJavaFormat>
               <version>1.7</version>
             </googleJavaFormat>
@@ -480,7 +480,7 @@
               <order>java,javax,org,com,com.diffplug,
               </order>  <!-- or use <file>${basedir}/eclipse.importorder</file> -->
             </importOrder>
-            <greclipse />          <!-- has its own section below -->
+            <greclipse/>          <!-- has its own section below -->
             <licenseHeader>
               <content>
 /*
